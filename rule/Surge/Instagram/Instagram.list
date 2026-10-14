@@ -1,0 +1,72 @@
+# NAME: Instagram
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 21:46:14
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 59
+# TOTAL: 64
+DOMAIN,edge-mqtt.facebook.com
+DOMAIN,is1-ssl.mzstatic.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,instagram.com
+IP-CIDR,198.18.1.12/32,no-resolve
+IP-CIDR,198.18.1.185/32,no-resolve
+IP-CIDR,198.18.1.186/32,no-resolve
+IP-CIDR,198.18.1.187/32,no-resolve
+IP-CIDR,198.18.1.188/32,no-resolve
+IP-CIDR,198.18.1.20/32,no-resolve
+IP-CIDR,198.18.1.23/32,no-resolve
+IP-CIDR,198.18.1.38/32,no-resolve
+IP-CIDR,198.18.1.7/32,no-resolve
+IP-CIDR,198.18.1.82/32,no-resolve
+IP-CIDR,198.18.1.85/32,no-resolve
+IP-CIDR,198.18.1.86/32,no-resolve
+IP-CIDR,198.18.2.1/32,no-resolve
+IP-CIDR,198.18.2.10/32,no-resolve
+IP-CIDR,198.18.2.11/32,no-resolve
+IP-CIDR,198.18.2.12/32,no-resolve
+IP-CIDR,198.18.2.14/32,no-resolve
+IP-CIDR,198.18.2.148/32,no-resolve
+IP-CIDR,198.18.2.15/32,no-resolve
+IP-CIDR,198.18.2.16/32,no-resolve
+IP-CIDR,198.18.2.166/32,no-resolve
+IP-CIDR,198.18.2.17/32,no-resolve
+IP-CIDR,198.18.2.171/32,no-resolve
+IP-CIDR,198.18.2.173/32,no-resolve
+IP-CIDR,198.18.2.18/32,no-resolve
+IP-CIDR,198.18.2.196/32,no-resolve
+IP-CIDR,198.18.2.208/32,no-resolve
+IP-CIDR,198.18.2.210/32,no-resolve
+IP-CIDR,198.18.2.23/32,no-resolve
+IP-CIDR,198.18.2.5/32,no-resolve
+IP-CIDR,198.18.2.6/32,no-resolve
+IP-CIDR,198.18.2.8/32,no-resolve
+IP-CIDR,198.18.2.9/32,no-resolve
+IP-CIDR,198.18.3.19/32,no-resolve
+IP-CIDR,198.18.3.42/32,no-resolve
+IP-CIDR,198.18.3.43/32,no-resolve
+IP-CIDR,198.18.3.44/32,no-resolve
+IP-CIDR,198.18.7.222/32,no-resolve
+IP-CIDR,198.18.7.223/32,no-resolve
+IP-CIDR,198.18.7.224/32,no-resolve
+IP-CIDR,198.18.7.74/32,no-resolve
+IP-CIDR,198.18.7.75/32,no-resolve
+IP-CIDR,198.18.7.76/32,no-resolve
+IP-CIDR,198.18.7.89/32,no-resolve
+IP-CIDR,198.18.7.90/32,no-resolve
+IP-CIDR,198.18.8.112/32,no-resolve
+IP-CIDR,198.18.8.113/32,no-resolve
+IP-CIDR,198.18.8.114/32,no-resolve
+IP-CIDR,198.18.8.139/32,no-resolve
+IP-CIDR,198.18.8.140/32,no-resolve
+IP-CIDR,198.18.8.141/32,no-resolve
+IP-CIDR,198.18.8.142/32,no-resolve
+IP-CIDR,198.18.8.161/32,no-resolve
+IP-CIDR,198.18.8.162/32,no-resolve
+IP-CIDR,198.18.8.163/32,no-resolve
+IP-CIDR,198.18.8.164/32,no-resolve
+IP-CIDR,198.18.8.2/32,no-resolve
+IP-CIDR,198.18.8.3/32,no-resolve
+IP-CIDR,198.19.244.74/32,no-resolve

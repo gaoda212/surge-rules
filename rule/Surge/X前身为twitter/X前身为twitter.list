@@ -1,0 +1,12 @@
+# NAME: X前身为twitter
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 21:46:14
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 3
+# TOTAL: 5
+DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN,connectivitycheck.gstatic.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com

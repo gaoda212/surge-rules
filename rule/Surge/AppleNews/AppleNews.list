@@ -1,0 +1,7 @@
+# NAME: AppleNews
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 21:46:14
+# DOMAIN: 1
+# TOTAL: 1
+DOMAIN,news-edge.apple.com

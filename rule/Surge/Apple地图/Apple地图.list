@@ -1,0 +1,8 @@
+# NAME: Apple地图
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 21:46:14
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com

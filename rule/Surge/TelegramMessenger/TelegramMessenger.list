@@ -1,0 +1,13 @@
+# NAME: TelegramMessenger
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 21:46:14
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 1
+# TOTAL: 5
+DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,nsringo.github.io
+DOMAIN-SUFFIX,nutrepo.com
+IP-CIDR,194.221.250.50/32,no-resolve

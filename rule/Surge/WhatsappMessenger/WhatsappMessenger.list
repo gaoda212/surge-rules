@@ -1,0 +1,13 @@
+# NAME: WhatsappMessenger
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 21:46:14
+# DOMAIN-SUFFIX: 3
+# IP-CIDR: 3
+# TOTAL: 6
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+IP-CIDR,198.18.1.140/32,no-resolve
+IP-CIDR,198.18.1.22/32,no-resolve
+IP-CIDR,198.18.1.79/32,no-resolve
