@@ -1,0 +1,26 @@
+# NAME: 微信
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 20:50:35
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 17
+# TOTAL: 19
+DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN,nr-op.elemecdn.com
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,bolink.club
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,keytop.cn
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,parkingos.club
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qq.com.cn
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tliveplay.com
+DOMAIN-SUFFIX,wechatpay.cn
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,wxgateway.com

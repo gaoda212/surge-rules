@@ -1,0 +1,10 @@
+# NAME: 中国农业银行
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 20:50:35
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,abchina.com.cn
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,wosms.cn

@@ -1,0 +1,9 @@
+# NAME: Apple健康
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-14 20:50:35
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 1
+# TOTAL: 2
+DOMAIN,is1-ssl.mzstatic.com
+DOMAIN-SUFFIX,apple.com
