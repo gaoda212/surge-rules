@@ -1,36 +1,43 @@
-# Surge 规则集
+# surge-rules
 
-个人 Surge 分流规则集。
+个人 Surge 规则集，按 App 分目录组织。
 
 ## 目录结构
 
 ```
-rules/      自建分流规则集
+rule/Surge/<App名>/<App名>.list
 ```
 
-## 规则集说明
+每个 App 一个独立规则文件，格式：
 
-`rules/custom.list` —— 自建分流规则，按用途分区：
-
-- **必走代理的服务**：AI 服务、代码托管
-- **走 R2S 回程**：国内流媒体、订阅拉取
-- **特殊直连**：延迟测试域名
-- **自定义拦截**：按需添加
+```
+# NAME: <App名>
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: <时间>
+# DOMAIN: <精确域名条数>
+# DOMAIN-SUFFIX: <后缀条数>
+# TOTAL: <总数>
+```
 
 ## 引用方式
 
 在 Surge Profile 的 `[Rule]` 段：
 
 ```ini
-RULE-SET,<规则集地址>,<策略名>
+RULE-SET,<规则集raw地址>,<策略名>
 ```
 
-## 策略组
+例：
 
-| 策略名 | 含义 |
-|---|---|
-| `Proxy` | 选择型，默认 🇺🇸MEGABOX-PRO |
-| `SNTP` | 智能选择 |
-| `🇨🇳Home_R2S` | Tailscale 回程走 R2S |
-| `DIRECT` | 直连 |
-| `REJECT` / `REJECT-DROP` | 拦截 |
+```ini
+RULE-SET,https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/微信/微信.list,DIRECT
+```
+
+> ⚠️ 本仓库为 **Private**，raw 链接需带 token 才能访问。
+> 若要让 Surge 直接引用，需改为 public。
+
+## 覆盖范围
+
+Apple 全家桶、Telegram、WhatsApp、Instagram、Reddit、Spotify、TikTok、YouTube、
+X、ChatGPT、微信、抖音、Bilibili、高德地图、中国农业银行、比亚迪 等 46 个 App。
