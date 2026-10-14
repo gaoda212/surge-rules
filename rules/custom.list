@@ -1,0 +1,52 @@
+# ============================================================
+# Surge 自建分流规则集
+# 维护者: gaoda212
+# 仓库: https://github.com/gaoda212/surge-rules
+# ============================================================
+# 说明:
+#   本文件为自建规则，与第三方订阅规则分离，便于独立维护和版本管理。
+#   引用方式（Surge Profile [Rule] 段）:
+#     RULE-SET,<本文件raw地址>,<策略名>
+# ============================================================
+
+# ---------- 一、必走代理的服务 ----------
+
+# AI 服务（需代理访问）
+DOMAIN-SUFFIX,openai.com,Proxy
+DOMAIN-SUFFIX,chatgpt.com,Proxy
+DOMAIN-SUFFIX,anthropic.com,Proxy
+DOMAIN-SUFFIX,claude.ai,Proxy
+DOMAIN-SUFFIX,gemini.google.com,Proxy
+DOMAIN-SUFFIX,aistudio.google.com,Proxy
+DOMAIN-SUFFIX,deepseek.com,🇨🇳Home_R2S
+DOMAIN-SUFFIX,perplexity.ai,Proxy
+
+# 开发与代码托管
+DOMAIN-SUFFIX,github.com,Proxy
+DOMAIN-SUFFIX,githubusercontent.com,Proxy
+DOMAIN-SUFFIX,githubassets.com,Proxy
+
+# ---------- 二、走 R2S 回程（Tailscale）的服务 ----------
+
+# 国内流媒体/服务走家庭网络
+DOMAIN-SUFFIX,bilibili.com,🇨🇳Home_R2S
+DOMAIN-SUFFIX,bilivideo.com,🇨🇳Home_R2S
+DOMAIN-SUFFIX,hdslb.com,🇨🇳Home_R2S
+
+# 订阅拉取
+DOMAIN-SUFFIX,sub1.sntp.me,🇨🇳Home_R2S
+
+# ---------- 三、特殊直连 ----------
+
+# 延迟测试
+DOMAIN-SUFFIX,wifi.vivo.com.cn,DIRECT
+
+# ---------- 四、自定义拦截 ----------
+
+# 示例：如需拦截特定域名，取消注释并修改
+# DOMAIN-SUFFIX,example-ads.com,REJECT
+
+# ============================================================
+# 规则优先级: 自上而下，先匹配先生效
+# 修改后建议在 Surge 中执行 "Reload Profile" 或点规则集刷新
+# ============================================================
