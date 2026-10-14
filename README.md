@@ -1,6 +1,6 @@
 # surge-rules
 
-个人 Surge 规则集，按 App 分目录组织。
+个人 Surge 规则集。
 
 ## 目录结构
 
@@ -8,7 +8,15 @@
 rule/Surge/<App名>/<App名>.list
 ```
 
-每个 App 一个独立规则文件，格式：
+保留的规则集：
+
+| App | 文件 | 规则数 |
+|---|---|---|
+| Bilibili | `rule/Surge/Bilibili/Bilibili.list` | 见文件头 |
+| 微信 | `rule/Surge/微信/微信.list` | 见文件头 |
+| 抖音 | `rule/Surge/抖音/抖音.list` | 见文件头 |
+
+## 文件格式
 
 ```
 # NAME: <App名>
@@ -37,7 +45,7 @@ RULE-SET,https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/
 > ⚠️ 本仓库为 **Private**，raw 链接需带 token 才能访问。
 > 若要让 Surge 直接引用，需改为 public。
 
-## 覆盖范围
+## 注意
 
-Apple 全家桶、Telegram、WhatsApp、Instagram、Reddit、Spotify、TikTok、YouTube、
-X、ChatGPT、微信、抖音、Bilibili、高德地图、中国农业银行、比亚迪 等 46 个 App。
+`rule/Surge/` 下的文件由**规则同步功能自动生成**，会覆盖式更新。
+不要在此目录手动修改，以免被下次同步覆盖。
