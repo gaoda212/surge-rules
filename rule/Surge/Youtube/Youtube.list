@@ -1,10 +1,11 @@
 # NAME: Youtube
 # AUTHOR: Rulify
 # REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: 2026-10-14 21:46:14
-# DOMAIN-SUFFIX: 10
-# IP-CIDR: 17
-# TOTAL: 27
+# UPDATED: 2026-10-21 03:00:18
+# DOMAIN-SUFFIX: 11
+# IP-CIDR: 4
+# TOTAL: 15
+DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googlesyndication.com
@@ -15,20 +16,7 @@ DOMAIN-SUFFIX,notifications-pa.googleapis.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,ytimg.com
-IP-CIDR,198.18.1.110/32,no-resolve
-IP-CIDR,198.18.1.144/32,no-resolve
-IP-CIDR,198.18.1.167/32,no-resolve
-IP-CIDR,198.18.1.171/32,no-resolve
-IP-CIDR,198.18.1.233/32,no-resolve
-IP-CIDR,198.18.1.87/32,no-resolve
-IP-CIDR,198.18.1.92/32,no-resolve
-IP-CIDR,198.18.2.31/32,no-resolve
-IP-CIDR,198.18.2.67/32,no-resolve
-IP-CIDR,198.18.2.69/32,no-resolve
-IP-CIDR,198.18.3.102/32,no-resolve
-IP-CIDR,198.18.3.140/32,no-resolve
-IP-CIDR,198.18.3.251/32,no-resolve
-IP-CIDR,198.18.3.35/32,no-resolve
-IP-CIDR,198.18.4.190/32,no-resolve
-IP-CIDR,198.18.6.45/32,no-resolve
-IP-CIDR,198.18.8.52/32,no-resolve
+IP-CIDR,104.244.46.17/32,no-resolve
+IP-CIDR,118.184.78.78/32,no-resolve
+IP-CIDR,154.92.16.97/32,no-resolve
+IP-CIDR,199.59.149.244/32,no-resolve

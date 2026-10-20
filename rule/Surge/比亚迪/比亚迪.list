@@ -1,60 +1,38 @@
 # NAME: 比亚迪
 # AUTHOR: Rulify
 # REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: 2026-10-14 21:46:14
+# UPDATED: 2026-10-21 03:00:18
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 4
-# IP-CIDR: 50
-# TOTAL: 55
+# DOMAIN-SUFFIX: 2
+# IP-CIDR: 30
+# TOTAL: 33
 DOMAIN,shortconn.im.qcloud.com
 DOMAIN-SUFFIX,byd.auto
-DOMAIN-SUFFIX,bydauto.com.cn
-DOMAIN-SUFFIX,bydoceanauto.com
 DOMAIN-SUFFIX,my-imcloud.com
 IP-CIDR,112.86.230.107/32,no-resolve
 IP-CIDR,112.86.240.22/32,no-resolve
-IP-CIDR,114.221.151.221/32,no-resolve
 IP-CIDR,116.63.93.234/32,no-resolve
-IP-CIDR,117.62.241.202/32,no-resolve
-IP-CIDR,119.147.179.231/32,no-resolve
 IP-CIDR,122.192.134.140/32,no-resolve
 IP-CIDR,122.192.134.252/32,no-resolve
 IP-CIDR,122.9.118.110/32,no-resolve
-IP-CIDR,124.160.155.57/32,no-resolve
-IP-CIDR,124.160.155.59/32,no-resolve
-IP-CIDR,14.152.91.153/32,no-resolve
-IP-CIDR,14.22.9.183/32,no-resolve
+IP-CIDR,124.160.155.61/32,no-resolve
 IP-CIDR,153.3.150.168/32,no-resolve
 IP-CIDR,153.3.150.212/32,no-resolve
 IP-CIDR,153.3.244.122/32,no-resolve
-IP-CIDR,157.148.36.162/32,no-resolve
 IP-CIDR,157.148.36.172/32,no-resolve
 IP-CIDR,157.148.45.142/32,no-resolve
 IP-CIDR,157.148.45.65/32,no-resolve
 IP-CIDR,162.14.3.250/32,no-resolve
-IP-CIDR,183.60.225.232/32,no-resolve
-IP-CIDR,203.107.1.1/32,no-resolve
 IP-CIDR,220.194.117.176/32,no-resolve
 IP-CIDR,220.194.118.231/32,no-resolve
 IP-CIDR,220.194.81.111/32,no-resolve
 IP-CIDR,220.194.81.74/32,no-resolve
-IP-CIDR,221.229.52.198/32,no-resolve
-IP-CIDR,221.229.52.217/32,no-resolve
-IP-CIDR,221.238.41.110/32,no-resolve
-IP-CIDR,27.44.122.181/32,no-resolve
 IP-CIDR,27.44.124.119/32,no-resolve
 IP-CIDR,27.44.125.44/32,no-resolve
 IP-CIDR,27.44.125.84/32,no-resolve
-IP-CIDR,42.81.176.234/32,no-resolve
-IP-CIDR,42.81.250.66/32,no-resolve
-IP-CIDR,42.81.250.70/32,no-resolve
-IP-CIDR,47.116.12.168/32,no-resolve
-IP-CIDR,47.116.12.221/32,no-resolve
 IP-CIDR,58.241.139.172/32,no-resolve
 IP-CIDR,58.241.139.225/32,no-resolve
 IP-CIDR,58.241.139.230/32,no-resolve
-IP-CIDR,59.82.96.27/32,no-resolve
-IP-CIDR,59.82.99.47/32,no-resolve
 IP-CIDR,60.29.232.121/32,no-resolve
 IP-CIDR,60.29.232.14/32,no-resolve
 IP-CIDR,60.29.232.22/32,no-resolve

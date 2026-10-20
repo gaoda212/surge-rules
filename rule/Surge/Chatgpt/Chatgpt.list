@@ -1,13 +1,15 @@
 # NAME: Chatgpt
 # AUTHOR: Rulify
 # REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: 2026-10-14 21:46:14
+# UPDATED: 2026-10-21 03:00:18
 # DOMAIN: 3
-# DOMAIN-SUFFIX: 3
-# TOTAL: 6
+# DOMAIN-SUFFIX: 5
+# TOTAL: 8
 DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,o33249.ingest.us.sentry.io
 DOMAIN,persistent.oaistatic.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sdmntprbrazilsouth.oaiusercontent.com

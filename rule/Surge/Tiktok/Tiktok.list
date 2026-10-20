@@ -1,11 +1,15 @@
 # NAME: Tiktok
 # AUTHOR: Rulify
 # REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: 2026-10-14 21:46:14
+# UPDATED: 2026-10-21 03:00:18
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 3
-# TOTAL: 4
+# DOMAIN-SUFFIX: 7
+# TOTAL: 8
 DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN-SUFFIX,adsafeprotected.com
+DOMAIN-SUFFIX,app-analytics-services.com
+DOMAIN-SUFFIX,snapkit.com
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokminis.us
+DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
