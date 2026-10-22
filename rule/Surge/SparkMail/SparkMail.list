@@ -1,0 +1,11 @@
+# NAME: SparkMail
+# AUTHOR: Rulify
+# REPO: https://github.com/gaoda212/surge-rules
+# UPDATED: 2026-10-23 02:00:23
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 3
+# TOTAL: 4
+DOMAIN,open.spotifycdn.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,smartmailcloud.com
+DOMAIN-SUFFIX,www.googleapis.com
