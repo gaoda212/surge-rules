@@ -1,0 +1,36 @@
+# NAME: TencentMeeting
+# AUTHOR: Minis
+# UPDATED: 2026-10-21
+# DESC: 腾讯会议 Bugly 崩溃上报 / rmonitor 监控 / trace 行为追踪 / 数据上报封锁
+# NOTE: 本文件含 REJECT 与 DIRECT，建议在 ChinaMax 等国内规则集【之前】引用
+#       业务域与 IP 段 DIRECT 用于防止 ChinaMax 误杀导致会议无法连接
+
+# ---------- 1. Bugly 崩溃上报（国内 / 海外 / 测试节点）----------
+DOMAIN-SUFFIX,bugly.qq.com,REJECT
+DOMAIN-SUFFIX,bugly.tencent.com,REJECT
+DOMAIN-SUFFIX,buglycloud.sgp.tencent.com,REJECT
+DOMAIN-SUFFIX,buglycloud.test.ias.qq.com,REJECT
+DOMAIN-SUFFIX,rqd.qq.com,REJECT
+
+# ---------- 2. rmonitor（腾讯自研 APM 监控）----------
+DOMAIN-SUFFIX,rmonitor.qq.com,REJECT
+
+# ---------- 3. trace 行为追踪 ----------
+DOMAIN-SUFFIX,h.trace.qq.com,REJECT
+
+# ---------- 4. 会议数据上报 ----------
+DOMAIN-SUFFIX,report.meeting.tencent.com,REJECT
+DOMAIN-SUFFIX,report-test.meeting.tencent.com,REJECT
+
+# ---------- 5. 会议日志投递 COS 桶 ----------
+DOMAIN-SUFFIX,wemeet-log-1256380422.cos.ap-guangzhou.myqcloud.com,REJECT
+
+# ---------- 6. 业务域放行（必须在 ChinaMax 等之前）----------
+DOMAIN-SUFFIX,meeting.tencent.com,DIRECT
+DOMAIN-SUFFIX,wemeet.tencent.com,DIRECT
+DOMAIN-SUFFIX,wemeet.qq.com,DIRECT
+DOMAIN-SUFFIX,meeting.qq.com,DIRECT
+DOMAIN-SUFFIX,tencentmeeting.com,DIRECT
+
+# ---------- 7. 媒体转发 / 信令服务器 IP 段（含 14000 媒体端口）----------
+IP-CIDR,162.14.0.0/16,DIRECT,no-resolve
