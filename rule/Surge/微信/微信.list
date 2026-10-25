@@ -1,36 +1,25 @@
 # NAME: 微信
 # AUTHOR: Rulify
 # REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: 2026-10-23 02:00:23
-# DOMAIN: 6
-# DOMAIN-SUFFIX: 24
+# UPDATED: 2026-10-25 22:04:41
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 14
 # IP-CIDR: 324
-# TOTAL: 354
+# TOTAL: 343
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN,fa7d2167146eb976ab3464a93aca4dd3.dlied1.cdntips.net
-DOMAIN,is1-ssl.mzstatic.com
-DOMAIN,lang.alicdn.com
-DOMAIN,logan-rtl.dreport.meituan.net
 DOMAIN,report-online.sh.wxgateway.com
 DOMAIN,report.meeting.tencent.com
-DOMAIN-SUFFIX,aliapp.org
-DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,chagee.com
-DOMAIN-SUFFIX,dianping.com
 DOMAIN-SUFFIX,gdtimg.com
 DOMAIN-SUFFIX,hunbei4.com
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qmai.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qq.com.cn
-DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,sgcc.com.cn
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tliveplay.com
 DOMAIN-SUFFIX,wechatpay.cn
 DOMAIN-SUFFIX,weixin.com
