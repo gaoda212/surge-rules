@@ -1,46 +1,24 @@
-# surge-rules
+# Surge Rules
 
-个人 Surge 规则集，按 App 分目录。
+个人 Surge 分流 / 隐私封锁规则集，仅保留两个 App。
 
-## 规则集
-
-| App | 文件 | 规则数 |
+| App | 规则数 | 文件 |
 |---|---|---|
-| Bilibili | `rule/Surge/Bilibili/Bilibili.list` | 15 |
-| WeChat | `rule/Surge/WeChat/WeChat.list` | 19 |
-| Douyin | `rule/Surge/Douyin/Douyin.list` | 29 |
+| WPS | 39 | [rule/Surge/WPS/WPS.list](rule/Surge/WPS/WPS.list) |
+| TencentMeeting | 16 | [rule/Surge/TencentMeeting/TencentMeeting.list](rule/Surge/TencentMeeting/TencentMeeting.list) |
 
-## 引用方式
-
-在 Surge Profile 的 `[Rule]` 段：
-
-```ini
-RULE-SET,<规则集地址>,<策略名>
-```
-
-实测可用地址：
-
-```ini
-RULE-SET,https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/Bilibili/Bilibili.list,香港节点
-RULE-SET,https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/WeChat/WeChat.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/Douyin/Douyin.list,DIRECT
-```
-
-> 策略名按你自己的策略组填（DIRECT / Proxy / 各节点组等）。
-
-## 文件格式
+## 订阅地址
 
 ```
-# NAME: <App名>
-# AUTHOR: Rulify
-# REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: <时间>
-# DOMAIN: <精确域名条数>
-# DOMAIN-SUFFIX: <后缀条数>
-# TOTAL: <总数>
+https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/WPS/WPS.list
+https://raw.githubusercontent.com/gaoda212/surge-rules/main/rule/Surge/TencentMeeting/TencentMeeting.list
 ```
 
-## 注意
+## 使用注意
 
-`rule/Surge/` 下的文件由规则同步功能自动生成，会覆盖式更新。
-不要在此目录手动修改，以免被下次同步覆盖。
+两个文件均含 `REJECT` 与 `DIRECT`，**必须放在 `ChinaMax` 等国内规则集之前**引用：
+
+- WPS：含 2 条 `IP-CIDR` 封锁内置 HTTPDNS 绕过（`120.92.33.171`、`159.138.83.72`），
+  以及业务域 `wpscdn.com` / `kdocs.cn` / `wpsdns.com` 等 `DIRECT`，防止被 ChinaMax 误杀。
+- TencentMeeting：含 `IP-CIDR,162.14.0.0/16,DIRECT,no-resolve`（媒体转发 14000 端口），
+  以及业务域 `meeting.tencent.com` / `meeting.qq.com` 等 `DIRECT`。
