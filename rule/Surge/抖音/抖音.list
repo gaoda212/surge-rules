@@ -1,16 +1,14 @@
 # NAME: 抖音
 # AUTHOR: Rulify
 # REPO: https://github.com/gaoda212/surge-rules
-# UPDATED: 2026-10-23 02:00:23
-# DOMAIN: 5
-# DOMAIN-SUFFIX: 27
-# IP-CIDR: 5114
-# TOTAL: 5146
+# UPDATED: 2026-10-25 22:06:29
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 25
+# IP-CIDR: 5106
+# TOTAL: 5134
 DOMAIN,47m8oicmg7zt8cfjf8okp98wxjjpb9k.z.cjjd14.com
 DOMAIN,d6j3bg5rqcpp6.v1d.pkoplink.com
 DOMAIN,lf3-static.bytednsdoc.com
-DOMAIN,sdktt.data.tianwenca.com
-DOMAIN,ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,bdcgslb.com
 DOMAIN-SUFFIX,bdurl.net
@@ -31,8 +29,6 @@ DOMAIN-SUFFIX,sjxydc.com
 DOMAIN-SUFFIX,smtcdns.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,wmzfylgdsz.com
-DOMAIN-SUFFIX,wosms.cn
-DOMAIN-SUFFIX,xinqiucc.com
 DOMAIN-SUFFIX,ydycdn.com
 DOMAIN-SUFFIX,yingt.fun
 DOMAIN-SUFFIX,yslidc.com
@@ -134,7 +130,6 @@ IP-CIDR,101.205.227.223/32,no-resolve
 IP-CIDR,101.205.227.45/32,no-resolve
 IP-CIDR,101.205.231.35/32,no-resolve
 IP-CIDR,101.205.247.237/32,no-resolve
-IP-CIDR,101.205.247.238/32,no-resolve
 IP-CIDR,101.205.247.239/32,no-resolve
 IP-CIDR,101.205.247.244/32,no-resolve
 IP-CIDR,101.205.247.245/32,no-resolve
@@ -143,7 +138,6 @@ IP-CIDR,101.206.129.18/32,no-resolve
 IP-CIDR,101.206.129.49/32,no-resolve
 IP-CIDR,101.206.150.53/32,no-resolve
 IP-CIDR,101.206.151.89/32,no-resolve
-IP-CIDR,101.206.163.37/32,no-resolve
 IP-CIDR,101.206.163.38/32,no-resolve
 IP-CIDR,101.206.163.39/32,no-resolve
 IP-CIDR,101.206.188.101/32,no-resolve
@@ -158,15 +152,11 @@ IP-CIDR,101.206.200.137/32,no-resolve
 IP-CIDR,101.206.200.138/32,no-resolve
 IP-CIDR,101.206.200.75/32,no-resolve
 IP-CIDR,101.206.200.76/32,no-resolve
-IP-CIDR,101.206.202.104/32,no-resolve
-IP-CIDR,101.206.202.105/32,no-resolve
-IP-CIDR,101.206.202.106/32,no-resolve
 IP-CIDR,101.206.202.107/32,no-resolve
 IP-CIDR,101.206.202.108/32,no-resolve
 IP-CIDR,101.206.202.109/32,no-resolve
 IP-CIDR,101.206.202.110/32,no-resolve
 IP-CIDR,101.206.202.111/32,no-resolve
-IP-CIDR,101.206.202.112/32,no-resolve
 IP-CIDR,101.206.202.113/32,no-resolve
 IP-CIDR,101.206.202.114/32,no-resolve
 IP-CIDR,101.206.202.115/32,no-resolve
@@ -1349,7 +1339,6 @@ IP-CIDR,116.169.165.29/32,no-resolve
 IP-CIDR,116.169.166.37/32,no-resolve
 IP-CIDR,116.169.166.38/32,no-resolve
 IP-CIDR,116.169.166.39/32,no-resolve
-IP-CIDR,116.169.166.40/32,no-resolve
 IP-CIDR,116.169.166.41/32,no-resolve
 IP-CIDR,116.169.166.42/32,no-resolve
 IP-CIDR,116.169.166.43/32,no-resolve
@@ -1372,7 +1361,6 @@ IP-CIDR,116.169.183.182/32,no-resolve
 IP-CIDR,116.169.183.184/32,no-resolve
 IP-CIDR,116.169.183.195/32,no-resolve
 IP-CIDR,116.169.183.41/32,no-resolve
-IP-CIDR,116.169.184.180/32,no-resolve
 IP-CIDR,116.169.2.15/32,no-resolve
 IP-CIDR,116.169.2.2/32,no-resolve
 IP-CIDR,116.169.2.26/32,no-resolve
