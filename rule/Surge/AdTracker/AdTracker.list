@@ -1,0 +1,34 @@
+# NAME: AdTracker
+# AUTHOR: Minis
+# UPDATED: 2026-11-05
+# DESC: 广告 DSP / 追踪上报 / 成人站封锁（来源：Surge 漏网流量记录分析）
+# NOTE: 全部为 REJECT，无业务域，可放在规则列表前部，建议在 adrules 之前引用
+#       数据来源：2675 条漏网记录中筛出的低频广告/追踪域名，
+#       82.8% 漏网为一次性随机域名（无法用域名规则拦截），故本文件只收录稳定域名。
+
+# ---------- 1. 微软广告 DSP ----------
+# 覆盖 array803 / array813 / disc801 / kv501 等投放子域
+DOMAIN-SUFFIX,dsp.mp.microsoft.com,REJECT
+
+# ---------- 2. 追踪 / SDK 上报 ----------
+# 阿里妈妈
+DOMAIN-SUFFIX,mmstat.com,REJECT
+# Datadog 浏览器监控（注意：xxx-datadoghq.com 是独立域，需单列）
+DOMAIN-SUFFIX,datadoghq.com,REJECT
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com,REJECT
+# Medallia 企业行为分析
+DOMAIN-SUFFIX,medallia.com,REJECT
+# Braze 营销推送
+DOMAIN-SUFFIX,braze.eu,REJECT
+# 个推推送
+DOMAIN-SUFFIX,getui.net,REJECT
+# Adobe 营销追踪
+DOMAIN-SUFFIX,adobedtm.com,REJECT
+# 中国移动认证风控
+DOMAIN-SUFFIX,cmpassport.com,REJECT
+
+# ---------- 3. 成人站 ----------
+DOMAIN-SUFFIX,91porn.com,REJECT
+DOMAIN-SUFFIX,91pron.com,REJECT
+DOMAIN-SUFFIX,91selfie.com,REJECT
+DOMAIN-SUFFIX,killcovid2021.com,REJECT
