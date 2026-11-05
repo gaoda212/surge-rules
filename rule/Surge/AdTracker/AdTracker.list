@@ -31,6 +31,9 @@ DOMAIN-SUFFIX,cmpassport.com,REJECT
 # btc620.com: 原站已下线，2026-09 起跳转 findonlineresults.com 停放页
 # 内容为贷款/荐股/ETF 诱导广告，上月产生 1.85 GB 流量
 DOMAIN-SUFFIX,btc620.com,REJECT
+# 同一停放商的中转页：空壳搜索框，无实际内容
+DOMAIN-SUFFIX,findonlineresults.com,REJECT
+DOMAIN-SUFFIX,nowresultssearch.com,REJECT
 
 # ---------- 4. 成人站 ----------
 DOMAIN-SUFFIX,91porn.com,REJECT
