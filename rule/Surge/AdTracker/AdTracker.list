@@ -27,7 +27,12 @@ DOMAIN-SUFFIX,adobedtm.com,REJECT
 # 中国移动认证风控
 DOMAIN-SUFFIX,cmpassport.com,REJECT
 
-# ---------- 3. 成人站 ----------
+# ---------- 3. 域名停放（过期/弃用后被停放商接管，挂诱导广告）----------
+# btc620.com: 原站已下线，2026-09 起跳转 findonlineresults.com 停放页
+# 内容为贷款/荐股/ETF 诱导广告，上月产生 1.85 GB 流量
+DOMAIN-SUFFIX,btc620.com,REJECT
+
+# ---------- 4. 成人站 ----------
 DOMAIN-SUFFIX,91porn.com,REJECT
 DOMAIN-SUFFIX,91pron.com,REJECT
 DOMAIN-SUFFIX,91selfie.com,REJECT
