@@ -51,7 +51,6 @@ DOMAIN-SUFFIX,nowresultssearch.com,REJECT
 
 # ---------- 4. 成人站 ----------
 DOMAIN-SUFFIX,91porn.com,REJECT
-DOMAIN-SUFFIX,91pron.com,REJECT
 DOMAIN-SUFFIX,91selfie.com,REJECT
 DOMAIN-SUFFIX,killcovid2021.com,REJECT
 
