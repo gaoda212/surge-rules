@@ -1,10 +1,10 @@
 # NAME: AdTracker
 # AUTHOR: Minis
-# UPDATED: 2026-11-05
+# UPDATED: 2026-11-20
 # DESC: 广告 DSP / 追踪上报 / 成人站封锁（来源：Surge 漏网流量记录分析）
 # NOTE: 全部为 REJECT，无业务域，可放在规则列表前部，建议在 adrules 之前引用
-#       数据来源：2675 条漏网记录中筛出的低频广告/追踪域名，
-#       82.8% 漏网为一次性随机域名（无法用域名规则拦截），故本文件只收录稳定域名。
+#       数据来源：227 条漏网记录（2026-11-11 ~ 11-20），按命中次数与域名形态筛选。
+#       一次性随机域名无法用域名规则拦截，本文件只收录稳定域名。
 
 # ---------- 1. 微软广告 DSP ----------
 # 覆盖 array803 / array813 / disc801 / kv501 等投放子域
@@ -27,6 +27,20 @@ DOMAIN-SUFFIX,adobedtm.com,REJECT
 # 中国移动认证风控
 DOMAIN-SUFFIX,cmpassport.com,REJECT
 
+# ---------- 2b. 2026-11-20 新增：频繁上报 / 广告投递 ----------
+# SmartNews 推送投递（beta 通道一次 78 次，非用户主动访问）
+DOMAIN-SUFFIX,smartmailcloud.com,REJECT
+# AFS 广告投放服务器（AppLovin/Fyber 系中介，1300+ 次/月）
+DOMAIN-SUFFIX,ampaeservices.com,REJECT
+# Better Ads 反广告欺诈脚本（自身也在上报，隐私考虑一并拦）
+DOMAIN-SUFFIX,crawlytics.app,REJECT
+# Splunk 前端 RUM 上报
+DOMAIN-SUFFIX,signalfx.com,REJECT
+# Azure Application Insights 浏览器遥测
+DOMAIN-SUFFIX,aria.microsoft.com,REJECT
+# 冰狐/CDN 侧埋点（漏网 3 次，纯埋点域）
+DOMAIN-SUFFIX,faviconkit.net,REJECT
+
 # ---------- 3. 域名停放（过期/弃用后被停放商接管，挂诱导广告）----------
 # btc620.com: 原站已下线，2026-09 起跳转 findonlineresults.com 停放页
 # 内容为贷款/荐股/ETF 诱导广告，上月产生 1.85 GB 流量
@@ -40,3 +54,15 @@ DOMAIN-SUFFIX,91porn.com,REJECT
 DOMAIN-SUFFIX,91pron.com,REJECT
 DOMAIN-SUFFIX,91selfie.com,REJECT
 DOMAIN-SUFFIX,killcovid2021.com,REJECT
+
+# ---------- 5. 伪装域 / 钓鱼形态（2026-11-20）----------
+# 用 1 冒充 l 的 c1oudfront / c1oudflare 类仿冒域，非官方 CDN
+DOMAIN-SUFFIX,c1oudfront.com,REJECT
+# 网赚/推广返利站（galaxyvipaff / shvip888 同一运营方，含 cmt/push 上报子域）
+DOMAIN-SUFFIX,galaxyvipaff01.cc,REJECT
+DOMAIN-SUFFIX,galaxyvipaff04.cc,REJECT
+DOMAIN-SUFFIX,galaxycloud.cc,REJECT
+DOMAIN-SUFFIX,shvip888.com,REJECT
+# 随机字符 + academy 域名的诱导下载站（tronmaster / cryptosign 同批注册）
+DOMAIN-SUFFIX,tronmaster.academy,REJECT
+DOMAIN-SUFFIX,cryptosign.academy,REJECT
