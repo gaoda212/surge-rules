@@ -65,3 +65,8 @@ DOMAIN-SUFFIX,shvip888.com,REJECT
 # 随机字符 + academy 域名的诱导下载站（tronmaster / cryptosign 同批注册）
 DOMAIN-SUFFIX,tronmaster.academy,REJECT
 DOMAIN-SUFFIX,cryptosign.academy,REJECT
+
+# ---------- auto 2026-11-20: spam-shaped hosts seen falling through ----------
+DOMAIN-SUFFIX,galaxyvipaffa04.cc,REJECT
+DOMAIN-SUFFIX,bjbxzxw.com,REJECT
+DOMAIN-SUFFIX,ganyiwanghe.com,REJECT
