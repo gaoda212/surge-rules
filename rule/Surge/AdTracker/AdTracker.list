@@ -69,3 +69,6 @@ DOMAIN-SUFFIX,cryptosign.academy,REJECT
 DOMAIN-SUFFIX,galaxyvipaffa04.cc,REJECT
 DOMAIN-SUFFIX,bjbxzxw.com,REJECT
 DOMAIN-SUFFIX,ganyiwanghe.com,REJECT
+
+# ---------- auto 2026-11-21: spam-shaped hosts seen falling through ----------
+DOMAIN-SUFFIX,91porn.com,REJECT
